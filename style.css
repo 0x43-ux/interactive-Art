@@ -1,0 +1,318 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    padding: 0;
+
+}
+
+
+a:hover {
+    color: #ffffff;
+    transition: 0.5s;
+    text-decoration : none;
+}
+a:focus {
+    color: #ffffff;
+    text-decoration : none;
+}
+.to-right-underline {
+    position: relative;
+
+}
+#paintNameA {
+    text-decoration : none;
+    color: #c1c1c1;
+
+}
+#paintNameA:hover {
+    text-decoration : none;
+    color: #ffffff;
+
+}
+
+.to-right-underline:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 0px;
+    height: 2px;
+    margin: 5px 0 0;
+    transition: all 0.2s ease-in-out;
+    transition-duration: 0.3s;
+    opacity: 0;
+    background-color: #ffffff;
+}
+
+.to-right-underline:hover:after {
+    width: 100%;
+    opacity: 1;
+}
+
+.bgImg {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+    filter: blur(50px);
+    transition: 0.5s;
+
+}
+.artBoxDiv {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    overflow: scroll;
+    overflow: auto;
+    white-space: nowrap;
+    margin-top: 20%;
+
+
+    overflow-y: hidden;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+
+
+}
+
+.ArtDiv1Out {
+    display: inline-block;
+    height:  100%;
+
+    margin-right: 0;
+    margin-left: 10%;
+    text-align: left;
+
+
+}
+
+.hoverdiv {
+    display: inline-block;
+    font-size: 0;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+.artDiv1 {
+    display: inline-block;
+    height:  40%;
+    margin-left: 10%;
+    transition: 0.5s;
+    text-align: left;
+    color: rgb(206, 206, 206);
+
+    
+}
+
+
+.artDiv1:hover {
+    height: 45%;
+    text-align: left;
+    margin-right: 0;
+    margin-left: 10;
+    transition: 0.5s;
+
+}
+
+
+.artDiv1:hover .hoverdiv {
+    font-size: 20px;
+    transition: 0.5s;
+    color: rgb(192, 192, 192);
+    
+}
+
+
+.img1 {
+    height: 100%;
+    
+}
+
+
+
+
+
+.ArtDiv2Out {
+    display: inline-block;
+    height:  100%;
+    margin-right: 0;
+    margin-left: 10%;
+    text-align: left;
+
+
+}
+
+.hoverdiv {
+    display: inline-block;
+    font-size: 0;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+.artDiv2 {
+    display: inline-block;
+    height:  40%;
+
+    margin-left: 10%;
+    transition: 0.5s;
+    text-align: left;
+    color: rgb(206, 206, 206);
+
+    
+}
+
+
+.artDiv2:hover {
+    height: 45%;
+    text-align: left;
+    margin-right: 50%;
+    margin-left: 10;
+
+    transition: 0.5s;
+
+}
+
+
+.artDiv2:hover .hoverdiv {
+    font-size: 20px;
+    transition: 0.5s;
+    color: rgb(192, 192, 192);
+    
+}
+
+
+.img2 {
+    height: 100%;
+    
+}
+
+
+
+
+
+.ArtDiv3Out {
+    display: inline-block;
+    height:  100%;
+
+    margin-right: 0;
+    margin-left: 10%;
+    text-align: left;
+
+
+}
+
+.hoverdiv {
+    display: inline-block;
+    font-size: 0;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+.artDiv3 {
+    display: inline-block;
+    height:  40%;
+
+    margin-left: 10%;
+    transition: 0.5s;
+    text-align: left;
+    color: rgb(206, 206, 206);
+
+    
+}
+
+
+.artDiv3:hover {
+    height: 45%;
+    text-align: left;
+    margin-right: 0;
+    margin-left: 10;
+
+    transition: 0.5s;
+
+}
+
+
+.artDiv3:hover .hoverdiv {
+    font-size: 20px;
+    transition: 0.5s;
+    color: rgb(192, 192, 192);
+    
+}
+
+
+.img3 {
+    height: 100%;
+    
+}
+
+
+
+
+
+.ArtDiv4Out {
+    display: inline-block;
+    height:  100%;
+
+    margin-left: 10%;
+    text-align: left;
+
+
+}
+
+.hoverdiv {
+    display: inline-block;
+    font-size: 0;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+.artDiv4 {
+    display: inline-block;
+    height:  40%;
+
+    margin-left: 10%;
+    transition: 0.5s;
+    text-align: left;
+    color: rgb(206, 206, 206);
+
+    
+}
+
+
+.artDiv4:hover {
+    height: 45%;
+    text-align: left;
+    margin-right: 50%;
+    margin-left: 10;
+    transition: 0.5s;
+
+}
+
+
+.artDiv4:hover .hoverdiv {
+    font-size: 20px;
+    transition: 0.5s;
+    color: rgb(183, 86, 86);
+    
+}
+
+
+.img4 {
+    height: 100%;
+    
+}
+
+.ArtDiv5Out {
+    width: 300px;
+    display: inline-block;
+}
+
+
